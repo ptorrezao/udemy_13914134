@@ -4,12 +4,18 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
+import { WarningComponent } from './alert/warning/warning.component';
+import { ErrorComponent } from './alert/error/error.component';
+import { SuccessComponent } from './alert/success/success.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
     ServersComponent,
+    WarningComponent,
+    ErrorComponent,
+    SuccessComponent,
   ],
   imports: [
     BrowserModule
