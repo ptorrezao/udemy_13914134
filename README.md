@@ -1,4 +1,7 @@
 Master Angular 9
+Currrently on step 28/02/2020 - https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/6655820#content
+
+--------------
 
 This course starts from scratch, you neither need to know Angular 1 nor Angular 2!
 
