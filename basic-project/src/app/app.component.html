@@ -7,7 +7,9 @@
       <hr>
       <button (click)="toogleVisibility()" class="btn btn-primary">Display Details</button>
       <p [ngClass]="{ invisible: isInvisible == false }">Pedro is the best</p>
-      <p *ngFor="let item of log">{{item}}</p>
+      <p *ngFor="let item of log; let i = index"
+          [ngStyle]="{backgroundColor: i>=5 ?'blue':'transparent'}"
+          [ngClass]="{'white-text': i>=5 }">{{item}}</p>
     </div>
   </div>
 </div>

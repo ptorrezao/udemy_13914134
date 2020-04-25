@@ -9,7 +9,8 @@ export class AppComponent {
   isInvisible = true;
   log = []
   toogleVisibility() {
-    this.log.push(this.isInvisible?"Hide":"Show");
     this.isInvisible = !this.isInvisible;
+    // this.log.push(this.log.length+1);
+    this.log.push(new Date());
   }
 }
