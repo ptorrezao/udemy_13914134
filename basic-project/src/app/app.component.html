@@ -4,6 +4,10 @@
       <h3>I'm in the AppComponent</h3>
       <hr>
       <app-servers></app-servers>
+      <hr>
+      <button (click)="toogleVisibility()" class="btn btn-primary">Display Details</button>
+      <p [ngClass]="{ invisible: isInvisible == false }">Pedro is the best</p>
+      <p *ngFor="let item of log">{{item}}</p>
     </div>
   </div>
 </div>
