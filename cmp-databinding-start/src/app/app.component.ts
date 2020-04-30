@@ -18,6 +18,10 @@ export class AppComponent {
       content: 'blueprint'
     }
   ];
+  onChangeFirst()
+  {
+    this.serverElements[0].name = Date.now().toString();
+  }
 
   onServerAdded(serverData: { serverName: string, serverContent: string}) {
     this.serverElements.push({
